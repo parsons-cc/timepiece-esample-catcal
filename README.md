@@ -3,34 +3,32 @@
 ## Part 1: Color by Time
 
  * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part1-colorByTime/)
- * [View code](part1-colorByTime/sketch1.js)
+ * [View code](part1-colorByTime/sketch.js)
 
 ## Part 2: Image by Date
 
 * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part2-catByDatee/)
-* [View code](part2-catByDate/sketch1.js)
-
-
+* [View code](part2-catByDate/sketch.js)
 
 ## Part 3: Text by Date
 
 * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part3-textByDate/)
-* [View code](part3-textByDate/sketch1.js)
+* [View code](part3-textByDate/sketch.js)
 
 ## Part 4: Text by Date (using the [p5.dom](http://p5js.org/reference/#/libraries/p5.dom) addon)
 
 * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part4-textByDateDom/)
-* [View code](part4-textByDateDom/sketch1.js)
+* [View code](part4-textByDateDom/sketch.js)
 
 ## Part 5: Putting it All Together
 
 * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part4-combined/)
-* [View code](part4-combined/sketch1.js)
+* [View code](part4-combined/sketch.js)
 
 ## Part 6: Add Remaining Cats
 
 * [View demo](http://cc.andydayton.com/timepiece-example-catcal/part4-combinedAllCats/)
-* [View code](part4-combinedAllCats/sketch1.js)
+* [View code](part4-combinedAllCats/sketch.js)
 
 ## Questions
 - [x]	How do I change the background color?
