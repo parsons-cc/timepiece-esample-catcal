@@ -2,6 +2,7 @@ var img;
 var imageWidth = 600;
 var imageHeight = 400;
 var mainText;
+var imagePath = '';
 var bodyElement;
 var mainTextElement;
 var dayOfMonth;
@@ -9,47 +10,49 @@ var dayOfMonth;
 function preload() {
 	dayOfMonth = day();
 	// manually change dayOfMonth to test
-	// dayOfMonth = 19;
+	// dayOfMonth = 6;
 	if(dayOfMonth == 1) {
 		mainText = "hang in there, boddy";
-		img = loadImage("images/cat_hammock.jpg");
+		imagePath = "images/cat_hammock.jpg";
 	} else if (dayOfMonth == 2){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat_looking.jpg");
+		imagePath = "images/cat_looking.jpg";
 	} else if (dayOfMonth == 3){
-		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat3.jpg");
+		mainText = "stop and smell the roses!";
+		imagePath = "images/cat3.jpg";
 	} else if (dayOfMonth == 4){
-		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat4.jpg");
+		mainText = "tastes like chicken";
+		imagePath = "images/cat4.jpg";
 	} else if (dayOfMonth == 5){
-		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat5.jpg");
+		mainText = "anyone have a breath mint?";
+		imagePath = "images/cat5.jpg";
 	} else if (dayOfMonth == 6){
-		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat6.jpg");
+		mainText = "i'm sleepy";
+		imagePath = "images/cat6.jpg";
 	} else if (dayOfMonth == 7){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat7.jpg");
+		imagePath = "images/cat7.jpg";
 	} else if (dayOfMonth == 8){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat8.jpg");
+		imagePath = "images/cat8.jpg";
 	} else if (dayOfMonth == 9){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat9.jpg");
+		imagePath = "images/cat9.jpg";
 	} else if (dayOfMonth == 10){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat10.jpg");
+		imagePath = "images/cat10.jpg";
 	} else if (dayOfMonth == 11){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat11.jpg");
+		imagePath = "images/cat11.jpg";
 	} else if (dayOfMonth == 12){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat12.jpg");
+		imagePath = "images/cat12.jpg";
 	} else if (dayOfMonth >= 13){
 		mainText = "why do you keep staring at me?";
-		img = loadImage("images/cat13.jpg");
+		imagePath = "images/cat13.jpg";
 	}
+
+	img = loadImage(imagePath);
 }
 
 /**
@@ -60,6 +63,7 @@ function setup() {
 
 	bodyElement = select('body');
 
+	console.log(bodyElement);
 
 	// draw main text element using HTML instead of canvas
 	// http://p5js.org/reference/#/libraries/p5.dom
